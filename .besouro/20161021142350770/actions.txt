@@ -39,3 +39,6 @@ CompilationAction 1477050542974 TestPlanetExplorer.java
 CompilationAction 1477050543125 TestPlanetExplorer.java
 CompilationAction 1477050547924 TestPlanetExplorer.java
 EditAction 1477050597773 TestPlanetExplorer.java 267 1 2 1
+UnitTestCaseAction 1477050609948 SpreadsheetTest.java OK
+UnitTestSessionAction 1477050609949 SpreadsheetTest.java OK
+EditAction 1477050639709 TestPlanetExplorer.java 268 1 0 0
