@@ -480,3 +480,6 @@ UnitTestCaseAction 1477057215149 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477057215150 TestPlanetExplorer.test_ObstacleSize FAIL
 EditAction 1477057247556 PlanetExplorer.java 4090 14 25 0
 EditAction 1477057250275 PlanetExplorer.java 4091 14 25 0
+UnitTestCaseAction 1477057255583 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477057255583 TestPlanetExplorer.test_ObstacleSize FAIL
+EditAction 1477057270557 PlanetExplorer.java 4086 14 25 0
