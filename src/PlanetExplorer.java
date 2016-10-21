@@ -45,7 +45,9 @@ public class PlanetExplorer {
 			if(command.charAt(i) == LEFT || command.charAt(i) == RIGHT){
 				turn(command.charAt(i));
 			}
-			moveForward();
+			else{
+				moveForward();
+			}
 		}
 		return getLocation();
 	}
