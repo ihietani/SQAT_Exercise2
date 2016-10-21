@@ -38,9 +38,6 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		if(command.equals("r")){
-			return "(0,0,E)";
-		}
 		for(int i = 0; i < command.length(); i++){
 			if(command.charAt(i) == LEFT || command.charAt(i) == RIGHT){
 				turn(command.charAt(i));
