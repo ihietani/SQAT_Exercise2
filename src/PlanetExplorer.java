@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		 */
 		
 		
-		return "(N)";
+		return "(0,1,N)";
 	}
 	public int[][] getGrid(){
 		return planetGrid;
