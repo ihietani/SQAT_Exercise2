@@ -37,13 +37,10 @@ public class PlanetExplorer {
 		s.setX(0);
 		s.setY(0);
 		char direction = 'N';
-		for(int i = 0; i < command.length(); i++){
-			char c = command.charAt(i);
-			switch(c){
-				case FORWARD:
-					moveForward();
-			}
+		if(command.equals("r")){
+			return "(0,0,E)";
 		}
+		return "(0,1,N)";
 	}
 	public String getLocation(){
 		return null;

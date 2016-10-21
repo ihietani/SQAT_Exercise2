@@ -193,3 +193,11 @@ CompilationAction 1477052908190 PlanetExplorer.java
 RefactoringAction 1477052923546 PlanetExplorer.java ADD void moveForward FIELD
 RefactoringAction 1477052927562 PlanetExplorer.java RENAME moveForward=>void moveForward() METHOD
 EditAction 1477052931695 PlanetExplorer.java 2111 10 14 0
+CompilationAction 1477052931809 PlanetExplorer.java
+CompilationAction 1477052931809 PlanetExplorer.java
+CompilationAction 1477053015587 PlanetExplorer.java
+CompilationAction 1477053015767 PlanetExplorer.java
+RefactoringAction 1477053035413 TestPlanetExplorer.java ADD void test_Location()/2 METHOD
+RefactoringAction 1477053038424 TestPlanetExplorer.java RENAME test_Location()/2=>void test_() METHOD
+RefactoringAction 1477053041934 TestPlanetExplorer.java REMOVE test_() METHOD
+EditAction 1477053042153 TestPlanetExplorer.java 681 3 6 3

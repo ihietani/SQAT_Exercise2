@@ -22,4 +22,5 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		assertEquals("The position is incorrect", "(0,0,E)", pe.getLocation());
 	}
+	
 }
