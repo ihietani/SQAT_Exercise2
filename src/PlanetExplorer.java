@@ -65,6 +65,7 @@ public class PlanetExplorer {
 				break;
 		}
 	}
+
 	
 	
 	class Location{
