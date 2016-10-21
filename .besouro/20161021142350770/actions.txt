@@ -443,3 +443,7 @@ UnitTestSessionAction 1477056384691 TestPlanetExplorer.java FAIL
 RefactoringAction 1477056418944 TestPlanetExplorer.java ADD void test_Obstacle()/2 METHOD
 RefactoringAction 1477056422456 TestPlanetExplorer.java RENAME test_Obstacle()/2=>void check_Obstacle() METHOD
 EditAction 1477056450372 PlanetExplorer.java 4007 13 24 0
+RefactoringAction 1477056475605 PlanetExplorer.java ADD String getObstacle FIELD
+RefactoringAction 1477056476624 PlanetExplorer.java RENAME getObstacle=>String getObstacle() METHOD
+RefactoringAction 1477056487675 PlanetExplorer.java RENAME getObstacle()=>String getObstacle(int) METHOD
+EditAction 1477056526534 PlanetExplorer.java 4063 14 25 0

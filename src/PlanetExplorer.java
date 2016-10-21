@@ -46,6 +46,9 @@ public class PlanetExplorer {
 	public char getDirection(){
 		return direction;
 	}
+	public int getObstacle(int n){
+		return obs.size();
+	}
 	
 	public String executeCommand(String command){
 		
