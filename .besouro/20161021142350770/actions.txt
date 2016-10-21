@@ -351,3 +351,8 @@ CompilationAction 1477055331515 PlanetExplorer.java
 EditAction 1477055379183 PlanetExplorer.java 3581 12 20 0
 RefactoringAction 1477055427001 PlanetExplorer.java REMOVE direction FIELD
 EditAction 1477055427564 PlanetExplorer.java 3580 12 20 0
+RefactoringAction 1477055431554 PlanetExplorer.java REMOVE setDirection(char) METHOD
+RefactoringAction 1477055440567 PlanetExplorer.java ADD void setDirection(char) METHOD
+RefactoringAction 1477055446581 PlanetExplorer.java REMOVE getDirection() METHOD
+RefactoringAction 1477055451097 PlanetExplorer.java ADD char getDirection() METHOD
+EditAction 1477055453509 PlanetExplorer.java 3580 12 20 0

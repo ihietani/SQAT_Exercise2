@@ -34,6 +34,12 @@ public class PlanetExplorer {
 		
 		
 	}
+	public void setDirection(char nd){
+		direction = nd;
+	}
+	public char getDirection(){
+		return direction;
+	}
 	
 	public String executeCommand(String command){
 		
@@ -141,9 +147,7 @@ public class PlanetExplorer {
 		public void setY(int yLocation){
 			y = yLocation;
 		}
-		public void setDirection(char nd){
-			direction = nd;
-		}
+		
 		
 		public int getY(){
 			return y;
@@ -151,8 +155,6 @@ public class PlanetExplorer {
 		public int getX(){
 			return x;
 		}
-		public char getDirection(){
-			return direction;
-		}
+		
 	}
 }
