@@ -45,7 +45,7 @@ public class PlanetExplorer {
 			if(command.charAt(i) == LEFT || command.charAt(i) == RIGHT){
 				turn(command.charAt(i));
 			}
-			else{
+			else if (command.charAt(i) == 'f'){
 				moveForward();
 			}
 		}
