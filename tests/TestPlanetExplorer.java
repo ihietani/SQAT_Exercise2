@@ -10,4 +10,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		assertEquals("Explorer did not move", "(0,1,N)", pe.executeCommand("f"));
 	}
+	@Test
+	public void test_executeCommandEast() {
+		//
+		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
+		assertEquals("Explorer did not move", "(0,1,N)", pe.executeCommand("r"));
+	}
 }
