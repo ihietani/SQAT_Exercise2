@@ -42,6 +42,8 @@ public class PlanetExplorer {
 	public String getLocation(){
 		return null;
 	}
+	
+	
 	class Location{
 		private int x;
 		private int y;
@@ -49,7 +51,7 @@ public class PlanetExplorer {
 		public void setX(int xLocation){
 			x = xLocation;
 		}
-		public void setY(){
+		public void setY(int yLocation){
 			y = yLocation;
 		}
 		

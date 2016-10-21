@@ -175,3 +175,6 @@ RefactoringAction 1477052524759 PlanetExplorer.java RENAME setX()/2=>void setY()
 EditAction 1477052526030 PlanetExplorer.java 1731 7 7 0
 RefactoringAction 1477052535801 PlanetExplorer.java RENAME setX()=>void setX(int) METHOD
 EditAction 1477052544991 PlanetExplorer.java 1772 7 9 0
+CompilationAction 1477052545087 PlanetExplorer.java
+CompilationAction 1477052550698 PlanetExplorer.java
+EditAction 1477052594549 PlanetExplorer.java 1789 7 9 0
