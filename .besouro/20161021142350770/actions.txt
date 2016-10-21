@@ -286,3 +286,6 @@ UnitTestSessionAction 1477054319736 TestPlanetExplorer.java OK
 RefactoringAction 1477054324874 TestPlanetExplorer.java ADD void test_moveEast()/2 METHOD
 RefactoringAction 1477054330383 TestPlanetExplorer.java RENAME test_moveEast()/2=>void test_moveWest() METHOD
 EditAction 1477054340692 TestPlanetExplorer.java 1250 6 12 6
+UnitTestCaseAction 1477054345290 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477054345290 TestPlanetExplorer.java FAIL
+EditAction 1477054349597 TestPlanetExplorer.java 1251 6 12 6
