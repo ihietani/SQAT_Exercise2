@@ -11,6 +11,7 @@ public class PlanetExplorer {
 	private int planetY;
 	private Location rover;
 	private char direction;
+	ArrayList<Location> obs;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -20,6 +21,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		obs = new ArrayList<Location>();
 		rover = new Location();
 		rover.setX(0);
 		rover.setY(0);
@@ -29,7 +31,9 @@ public class PlanetExplorer {
 		
 		Scanner sc = new Scanner(obstacles);
 		while(sc.hasNextInt()){
-			
+			Location l = new Location();
+			l.setX(sc.nextInt());
+			l.setY(sc.nextInt());
 		}
 		
 		
