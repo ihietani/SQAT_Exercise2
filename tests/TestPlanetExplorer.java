@@ -5,10 +5,8 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void test_obstacle() {
+	public void test_executeCommand() {
 		//
-		PlanetExplorer pe = new PlanetExplorer(100, 100, "5,5");
-		
-		assertEquals("Grid is not initialized", );
+		PlanetExplorer pe = new PlanetExplorer(100,100,""(5,5)(7,8)");
 	}
 }

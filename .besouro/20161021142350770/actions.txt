@@ -68,3 +68,9 @@ RefactoringAction 1477050902451 TestPlanetExplorer.java RENAME test_obsta()=>voi
 CompilationAction 1477050902691 TestPlanetExplorer.java
 CompilationAction 1477050902839 TestPlanetExplorer.java
 EditAction 1477050904487 PlanetExplorer.java 1393 3 3 0
+CompilationAction 1477050993102 TestPlanetExplorer.java
+CompilationAction 1477050993271 TestPlanetExplorer.java
+CompilationAction 1477051002454 TestPlanetExplorer.java
+CompilationAction 1477051002633 TestPlanetExplorer.java
+RefactoringAction 1477051084556 TestPlanetExplorer.java RENAME test_obstacle()=>void test_executeCommand() METHOD
+EditAction 1477051146449 TestPlanetExplorer.java 213 1 0 0
