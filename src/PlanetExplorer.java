@@ -43,7 +43,7 @@ public class PlanetExplorer {
 		}
 		for(int i = 0; i < command.length(); i++){
 			if(command.charAt(i) == LEFT || command.charAt(i) == RIGHT){
-				turn();
+				turn(command.charAt(i));
 			}
 			moveForward();
 		}
