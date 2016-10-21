@@ -48,7 +48,7 @@ public class TestPlanetExplorer {
 		assertEquals("The position is incorrect", "(0,-2,N)", pe.executeCommand("bb"));
 	}
 	@Test
-	public void check_Obstacle(){
+	public void test_ObstacleSize(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(0,2)(7,8)");
 		assertEquals("ArrayList is incorrect", 2, pe.getObstacleSize());
 	}
