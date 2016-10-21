@@ -20,6 +20,6 @@ public class TestPlanetExplorer {
 	public void test_executeCommandEast() {
 		//
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
-		assertEquals("Explorer did not move", "(0,0,E)", pe.executeCommand("r"));
+		assertEquals("E", "(0,0,E)", pe.executeCommand("r"));
 	}
 }
