@@ -471,3 +471,11 @@ EditAction 1477057121042 PlanetExplorer.java 4081 14 15 0
 CompilationAction 1477057121301 PlanetExplorer.java
 CompilationAction 1477057121302 PlanetExplorer.java
 EditAction 1477057161829 PlanetExplorer.java 4082 14 15 0
+CompilationAction 1477057162096 PlanetExplorer.java
+CompilationAction 1477057162097 PlanetExplorer.java
+CompilationAction 1477057176013 PlanetExplorer.java
+UnitTestCaseAction 1477057188698 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477057188698 TestPlanetExplorer.test_ObstacleSize FAIL
+UnitTestCaseAction 1477057215149 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477057215150 TestPlanetExplorer.test_ObstacleSize FAIL
+EditAction 1477057247556 PlanetExplorer.java 4090 14 25 0
