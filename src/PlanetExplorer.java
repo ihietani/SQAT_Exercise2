@@ -69,7 +69,7 @@ public class PlanetExplorer {
 		return "("+rover.getX()+","+rover.getY()+","+rover.getDirection()+")";
 	}
 	public void moveForward(){
-		switch(rover.getDirection()){
+		switch(getDirection()){
 			case 'N':
 				rover.setY(rover.getY() + 1);
 				break;
@@ -85,7 +85,7 @@ public class PlanetExplorer {
 		}
 	}
 	public void moveBackward(){
-		switch(rover.getDirection()){
+		switch(getDirection()){
 			case 'N':
 				rover.setY(rover.getY() - 1);
 				break;
@@ -102,36 +102,36 @@ public class PlanetExplorer {
 	}
 	public void turn(char nd){
 		if(nd == 'r'){
-			switch(rover.getDirection()){
+			switch(getDirection()){
 				case 'N':
-					rover.setDirection('E');
+					setDirection('E');
 					break;
 				case 'E':
-					rover.setDirection('S');
+					setDirection('S');
 					break;
 				case 'S':
-					rover.setDirection('W');
+					setDirection('W');
 					break;
 				case 'W':
-					rover.setDirection('N');
+					setDirection('N');
 					break;
 			}
 		}
 		else if(nd == 'l'){
-			switch(rover.getDirection()){
-			case 'N':
-				rover.setDirection('W');
-				break;
-			case 'E':
-				rover.setDirection('N');
-				break;
-			case 'S':
-				rover.setDirection('E');
-				break;
-			case 'W':
-				rover.setDirection('S');
-				break;
-		}
+			switch(getDirection()){
+				case 'N':
+					setDirection('W');
+					break;
+				case 'E':
+					setDirection('N');
+					break;
+				case 'S':
+					setDirection('E');
+					break;
+				case 'W':
+					setDirection('S');
+					break;
+			}
 		}
 	}
 

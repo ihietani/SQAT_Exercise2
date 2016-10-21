@@ -356,3 +356,46 @@ RefactoringAction 1477055440567 PlanetExplorer.java ADD void setDirection(char) 
 RefactoringAction 1477055446581 PlanetExplorer.java REMOVE getDirection() METHOD
 RefactoringAction 1477055451097 PlanetExplorer.java ADD char getDirection() METHOD
 EditAction 1477055453509 PlanetExplorer.java 3580 12 20 0
+CompilationAction 1477055453624 PlanetExplorer.java
+CompilationAction 1477055453624 PlanetExplorer.java
+CompilationAction 1477055477588 PlanetExplorer.java
+CompilationAction 1477055477589 PlanetExplorer.java
+CompilationAction 1477055477776 PlanetExplorer.java
+CompilationAction 1477055477776 PlanetExplorer.java
+CompilationAction 1477055477776 PlanetExplorer.java
+CompilationAction 1477055498142 PlanetExplorer.java
+CompilationAction 1477055498143 PlanetExplorer.java
+CompilationAction 1477055498143 PlanetExplorer.java
+CompilationAction 1477055498314 PlanetExplorer.java
+CompilationAction 1477055498315 PlanetExplorer.java
+CompilationAction 1477055513450 PlanetExplorer.java
+CompilationAction 1477055513451 PlanetExplorer.java
+CompilationAction 1477055513627 PlanetExplorer.java
+CompilationAction 1477055513627 PlanetExplorer.java
+CompilationAction 1477055527911 PlanetExplorer.java
+CompilationAction 1477055527912 PlanetExplorer.java
+CompilationAction 1477055528087 PlanetExplorer.java
+CompilationAction 1477055528087 PlanetExplorer.java
+CompilationAction 1477055528087 PlanetExplorer.java
+CompilationAction 1477055538373 PlanetExplorer.java
+CompilationAction 1477055538373 PlanetExplorer.java
+CompilationAction 1477055538374 PlanetExplorer.java
+CompilationAction 1477055538556 PlanetExplorer.java
+CompilationAction 1477055538556 PlanetExplorer.java
+CompilationAction 1477055538557 PlanetExplorer.java
+CompilationAction 1477055558152 PlanetExplorer.java
+CompilationAction 1477055558332 PlanetExplorer.java
+CompilationAction 1477055558333 PlanetExplorer.java
+CompilationAction 1477055558333 PlanetExplorer.java
+RefactoringAction 1477055565459 PlanetExplorer.java ADD void setDirection(char) METHOD
+RefactoringAction 1477055565461 PlanetExplorer.java ADD char getDirection() METHOD
+CompilationAction 1477055566374 PlanetExplorer.java
+CompilationAction 1477055566374 PlanetExplorer.java
+CompilationAction 1477055566375 PlanetExplorer.java
+CompilationAction 1477055566537 PlanetExplorer.java
+CompilationAction 1477055566537 PlanetExplorer.java
+CompilationAction 1477055609483 PlanetExplorer.java
+CompilationAction 1477055609483 PlanetExplorer.java
+CompilationAction 1477055609643 PlanetExplorer.java
+CompilationAction 1477055609643 PlanetExplorer.java
+EditAction 1477055623737 PlanetExplorer.java 3521 12 20 0
