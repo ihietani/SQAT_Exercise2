@@ -328,3 +328,9 @@ EditAction 1477054667505 TestPlanetExplorer.java 1630 8 16 8
 UnitTestCaseAction 1477054669590 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477054669591 TestPlanetExplorer.java OK
 EditAction 1477054776059 PlanetExplorer.java 3482 12 18 0
+UnitTestCaseAction 1477054778913 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054778914 TestPlanetExplorer.java OK
+RefactoringAction 1477054901133 TestPlanetExplorer.java ADD void test_moveBackward()/2 METHOD
+RefactoringAction 1477054905144 TestPlanetExplorer.java RENAME test_moveBackward()/2=>void test_() METHOD
+RefactoringAction 1477054907655 TestPlanetExplorer.java RENAME test_()=>void test_Obstacle() METHOD
+EditAction 1477054921871 TestPlanetExplorer.java 1819 9 18 9
