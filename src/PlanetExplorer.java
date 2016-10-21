@@ -70,6 +70,16 @@ public class PlanetExplorer {
 			switch(rover.getDirection()){
 				case 'N':
 					rover.setDirection('E');
+					break;
+				case 'E':
+					rover.setDirection('S');
+					break;
+				case 'S':
+					rover.setDirection('W');
+					break;
+				case 'W':
+					rover.setDirection('N');
+					break;
 			}
 		}
 	}
