@@ -65,6 +65,14 @@ public class PlanetExplorer {
 				break;
 		}
 	}
+	public void turn(char nd){
+		if(nd == 'r'){
+			switch(rover.getDirection()){
+				case 'N':
+					rover.setDirection('E');
+			}
+		}
+	}
 
 	
 	
