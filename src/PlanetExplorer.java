@@ -33,12 +33,17 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		Location s = new Location();
+		s.setX(0);
+		s.setY(0);
 		char direction = 'N';
-		if(command.equals("r")){
-			return "(0,0,E)";
+		for(int i = 0; i < command.length(); i++){
+			char c = command.charAt(i);
+			switch(c){
+				case FORWARD:
+					moveForward();
+			}
 		}
-		
-		return "(0,1,N)";
 	}
 	public String getLocation(){
 		return null;
@@ -48,12 +53,16 @@ public class PlanetExplorer {
 	class Location{
 		private int x;
 		private int y;
+		private char direction;
 		
 		public void setX(int xLocation){
 			x = xLocation;
 		}
 		public void setY(int yLocation){
 			y = yLocation;
+		}
+		public void setDirection(char nd){
+			direction = nd;
 		}
 		
 		public int getY(){

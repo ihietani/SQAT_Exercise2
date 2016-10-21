@@ -179,3 +179,9 @@ CompilationAction 1477052545087 PlanetExplorer.java
 CompilationAction 1477052550698 PlanetExplorer.java
 EditAction 1477052594549 PlanetExplorer.java 1789 7 9 0
 EditAction 1477052653573 PlanetExplorer.java 1813 7 10 0
+CompilationAction 1477052785818 PlanetExplorer.java
+RefactoringAction 1477052846848 PlanetExplorer.java ADD char direction FIELD
+RefactoringAction 1477052861377 PlanetExplorer.java ADD void setDi FIELD
+RefactoringAction 1477052863885 PlanetExplorer.java RENAME setDi=>void setDirection() METHOD
+RefactoringAction 1477052872397 PlanetExplorer.java RENAME setDirection()=>void setDirection(char) METHOD
+EditAction 1477052889397 PlanetExplorer.java 2018 8 13 0
