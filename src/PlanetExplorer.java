@@ -16,6 +16,7 @@ public class PlanetExplorer {
 		 
 	 */
 		planetGrid = new int[x][y];
+		
 	}
 	
 	public String executeCommand(String command){

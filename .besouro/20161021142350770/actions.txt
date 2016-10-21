@@ -58,3 +58,13 @@ RefactoringAction 1477050791745 TestPlanetExplorer.java RENAME test_executeComma
 CompilationAction 1477050822438 TestPlanetExplorer.java
 EditAction 1477050836419 PlanetExplorer.java 1389 3 3 0
 EditAction 1477050843843 PlanetExplorer.java 1390 3 3 0
+CompilationAction 1477050844104 TestPlanetExplorer.java
+RefactoringAction 1477050848361 TestPlanetExplorer.java REMOVE test_grid() METHOD
+RefactoringAction 1477050856384 TestPlanetExplorer.java ADD void test_grid() METHOD
+RefactoringAction 1477050862896 TestPlanetExplorer.java RENAME test_grid()=>void test_object() METHOD
+CompilationAction 1477050872264 TestPlanetExplorer.java
+RefactoringAction 1477050901439 TestPlanetExplorer.java RENAME test_object()=>void test_obsta() METHOD
+RefactoringAction 1477050902451 TestPlanetExplorer.java RENAME test_obsta()=>void test_obstacle() METHOD
+CompilationAction 1477050902691 TestPlanetExplorer.java
+CompilationAction 1477050902839 TestPlanetExplorer.java
+EditAction 1477050904487 PlanetExplorer.java 1393 3 3 0
