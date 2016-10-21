@@ -51,7 +51,7 @@ public class PlanetExplorer {
 	public void moveForward(){
 		switch(rover.getDirection()){
 			case 'N':
-				rover.y++;
+				rover.setY(rover.getY() + 1);
 		}
 	}
 	
