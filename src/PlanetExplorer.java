@@ -1,4 +1,5 @@
 
+import java.util.*;
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:146
 // Finish time:
@@ -24,6 +25,12 @@ public class PlanetExplorer {
 		rover.setDirection('N');
 		planetX = x;
 		planetY = y;
+		
+		Scanner sc = new Scanner(obstacles);
+		while(sc.hasNextInt()){
+			
+		}
+		
 		
 	}
 	
