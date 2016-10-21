@@ -101,3 +101,12 @@ RefactoringAction 1477051424497 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1477051430510 TestPlanetExplorer.java RENAME test_executeCommandNorth()/2=>void test_executeCommandEast() METHOD
 EditAction 1477051443499 TestPlanetExplorer.java 489 2 4 2
 EditAction 1477051458834 TestPlanetExplorer.java 489 2 4 2
+UnitTestCaseAction 1477051464361 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051464362 TestPlanetExplorer.java FAIL
+RefactoringAction 1477051656308 PlanetExplorer.java ADD char N FIELD
+RefactoringAction 1477051659322 PlanetExplorer.java RENAME N=>char NORTH FIELD
+RefactoringAction 1477051668877 PlanetExplorer.java RENAME NORTH=>char FORWARD FIELD
+RefactoringAction 1477051678418 PlanetExplorer.java ADD char BACKWARD FIELD
+RefactoringAction 1477051688476 PlanetExplorer.java ADD char LEFT FIELD
+RefactoringAction 1477051697030 PlanetExplorer.java ADD char RIGHT FIELD
+EditAction 1477051701546 PlanetExplorer.java 1625 3 2 0
