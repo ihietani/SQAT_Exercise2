@@ -69,9 +69,9 @@ public class PlanetExplorer {
 			}
 			else{
 				moveBackward();
-				if(isObstacle(){
+				if(isObstacle()){
 					moveForward();
-				})
+				}
 			}
 		}
 		return getLocation();
