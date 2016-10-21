@@ -2,7 +2,7 @@
 import java.util.*;
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:146
-// Finish time:
+// Finish time: 16:62
 
 public class PlanetExplorer {
 	
