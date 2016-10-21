@@ -53,7 +53,11 @@ public class PlanetExplorer {
 			case 'N':
 				rover.setY(rover.getY() + 1);
 			case 'S':
-				rover.setY(rover.getY() - 1));
+				rover.setY(rover.getY() - 1);
+			case 'E':
+				rover.setX(rover.getX() + 1);
+			case 'W':
+				rover.setX(rover.getX() - 1);
 		}
 	}
 	
