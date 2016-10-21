@@ -74,7 +74,12 @@ public class PlanetExplorer {
 		return "("+rover.getX()+","+rover.getY()+","+this.getDirection()+")";
 	}
 	public boolean checkObstacle(){
-		
+		for(Location l: obs){
+			if(rover.getX() == l.getX() && rover.getY() == l.getY()){
+				return true;
+			}
+		}
+		return false;
 	}
 	public void moveForward(){
 		switch(getDirection()){
