@@ -34,6 +34,7 @@ public class PlanetExplorer {
 			Location l = new Location();
 			l.setX(sc.nextInt());
 			l.setY(sc.nextInt());
+			obs.add(l);
 		}
 		
 		
