@@ -46,7 +46,7 @@ public class PlanetExplorer {
 		return "(0,1,N)";
 	}
 	public String getLocation(){
-		return null;
+		return "("+rover.getX()+","+rover.getY()+","+rover.getDirection();
 	}
 	public void moveForward(){
 		switch(rover.getDirection()){
