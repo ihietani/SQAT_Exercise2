@@ -23,7 +23,7 @@ public class PlanetExplorer {
 		rover = new Location();
 		rover.setX(0);
 		rover.setY(0);
-		rover.setDirection('N');
+		this.setDirection('N');
 		planetX = x;
 		planetY = y;
 		
@@ -66,7 +66,7 @@ public class PlanetExplorer {
 		return getLocation();
 	}
 	public String getLocation(){
-		return "("+rover.getX()+","+rover.getY()+","+rover.getDirection()+")";
+		return "("+rover.getX()+","+rover.getY()+","+this.getDirection()+")";
 	}
 	public void moveForward(){
 		switch(getDirection()){
@@ -85,7 +85,7 @@ public class PlanetExplorer {
 		}
 	}
 	public void moveBackward(){
-		switch(getDirection()){
+		switch(this.getDirection()){
 			case 'N':
 				rover.setY(rover.getY() - 1);
 				break;
@@ -102,34 +102,34 @@ public class PlanetExplorer {
 	}
 	public void turn(char nd){
 		if(nd == 'r'){
-			switch(getDirection()){
+			switch(this.getDirection()){
 				case 'N':
-					setDirection('E');
+					this.setDirection('E');
 					break;
 				case 'E':
-					setDirection('S');
+					this.setDirection('S');
 					break;
 				case 'S':
-					setDirection('W');
+					this.setDirection('W');
 					break;
 				case 'W':
-					setDirection('N');
+					this.setDirection('N');
 					break;
 			}
 		}
 		else if(nd == 'l'){
-			switch(getDirection()){
+			switch(this.getDirection()){
 				case 'N':
-					setDirection('W');
+					this.setDirection('W');
 					break;
 				case 'E':
-					setDirection('N');
+					this.setDirection('N');
 					break;
 				case 'S':
-					setDirection('E');
+					this.setDirection('E');
 					break;
 				case 'W':
-					setDirection('S');
+					this.setDirection('S');
 					break;
 			}
 		}
