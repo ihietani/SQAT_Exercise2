@@ -334,3 +334,4 @@ RefactoringAction 1477054901133 TestPlanetExplorer.java ADD void test_moveBackwa
 RefactoringAction 1477054905144 TestPlanetExplorer.java RENAME test_moveBackward()/2=>void test_() METHOD
 RefactoringAction 1477054907655 TestPlanetExplorer.java RENAME test_()=>void test_Obstacle() METHOD
 EditAction 1477054921871 TestPlanetExplorer.java 1819 9 18 9
+EditAction 1477054944184 TestPlanetExplorer.java 1818 9 18 9
