@@ -453,3 +453,5 @@ EditAction 1477056543274 PlanetExplorer.java 4058 14 25 0
 CompilationAction 1477056543542 TestPlanetExplorer.java
 RefactoringAction 1477056547926 PlanetExplorer.java RENAME getObstacle()=>int getObstacleSize() METHOD
 EditAction 1477056547943 PlanetExplorer.java 4062 14 25 0
+CompilationAction 1477056548042 TestPlanetExplorer.java
+EditAction 1477056554831 TestPlanetExplorer.java 2002 10 20 10
