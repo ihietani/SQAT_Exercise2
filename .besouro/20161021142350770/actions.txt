@@ -274,3 +274,8 @@ EditAction 1477054278242 PlanetExplorer.java 2895 11 18 0
 UnitTestCaseAction 1477054281448 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477054281448 TestPlanetExplorer.java FAIL
 EditAction 1477054291797 TestPlanetExplorer.java 874 4 8 4
+UnitTestCaseAction 1477054295452 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054295452 TestPlanetExplorer.java OK
+RefactoringAction 1477054302333 TestPlanetExplorer.java ADD void test_moveEast()/2 METHOD
+RefactoringAction 1477054305845 TestPlanetExplorer.java RENAME test_moveEast()/2=>void test_turnEast() METHOD
+EditAction 1477054305883 TestPlanetExplorer.java 1060 5 10 5
