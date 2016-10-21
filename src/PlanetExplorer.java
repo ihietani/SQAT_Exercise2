@@ -46,6 +46,13 @@ public class PlanetExplorer {
 		private int x;
 		private int y;
 		
+		public void setX(){
+			
+		}
+		public void setY(){
+			
+		}
+		
 		public int getY(){
 			return y;
 		}

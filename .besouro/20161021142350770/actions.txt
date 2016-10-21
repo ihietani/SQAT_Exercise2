@@ -166,3 +166,10 @@ RefactoringAction 1477052477049 PlanetExplorer.java ADD int get FIELD
 RefactoringAction 1477052478062 PlanetExplorer.java RENAME get=>int getX FIELD
 RefactoringAction 1477052479078 PlanetExplorer.java RENAME getX=>int getX() METHOD
 EditAction 1477052483221 PlanetExplorer.java 1668 5 7 0
+RefactoringAction 1477052508652 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1477052510164 PlanetExplorer.java RENAME set=>void setLocation FIELD
+RefactoringAction 1477052512177 PlanetExplorer.java RENAME setLocation=>void setLocation() METHOD
+RefactoringAction 1477052516692 PlanetExplorer.java RENAME setLocation()=>void setX() METHOD
+RefactoringAction 1477052520234 PlanetExplorer.java ADD void setX()/2 METHOD
+RefactoringAction 1477052524759 PlanetExplorer.java RENAME setX()/2=>void setY() METHOD
+EditAction 1477052526030 PlanetExplorer.java 1731 7 7 0
