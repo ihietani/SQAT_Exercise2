@@ -10,6 +10,7 @@ public class PlanetExplorer {
 	private int planetX;
 	private int planetY;
 	private Location rover;
+	private char direction;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -133,7 +134,6 @@ public class PlanetExplorer {
 	class Location{
 		private int x;
 		private int y;
-		private char direction;
 		
 		public void setX(int xLocation){
 			x = xLocation;

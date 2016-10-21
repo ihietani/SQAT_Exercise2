@@ -349,3 +349,5 @@ RefactoringAction 1477055288779 PlanetExplorer.java ADD import java.util.* IMPOR
 CompilationAction 1477055289058 PlanetExplorer.java
 CompilationAction 1477055331515 PlanetExplorer.java
 EditAction 1477055379183 PlanetExplorer.java 3581 12 20 0
+RefactoringAction 1477055427001 PlanetExplorer.java REMOVE direction FIELD
+EditAction 1477055427564 PlanetExplorer.java 3580 12 20 0
