@@ -17,3 +17,9 @@ RefactoringAction 1477050334322 PlanetExplorer.java ADD int FIELD
 EditAction 1477050337122 PlanetExplorer.java 1303 2 1 0
 CompilationAction 1477050337421 TestPlanetExplorer.java
 EditAction 1477050364312 PlanetExplorer.java 1320 2 1 0
+CompilationAction 1477050364641 PlanetExplorer.java
+RefactoringAction 1477050391034 PlanetExplorer.java RENAME grid=>int FIELD
+CompilationAction 1477050415941 PlanetExplorer.java
+CompilationAction 1477050416142 PlanetExplorer.java
+CompilationAction 1477050416142 TestPlanetExplorer.java
+EditAction 1477050422955 PlanetExplorer.java 1339 2 2 0

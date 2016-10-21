@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	
-	private int[][] grid;
+	private int[][] planetGrid;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -15,7 +15,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		grid = [x][y];
+		planetGrid = new int[x][y];
 	}
 	
 	public String executeCommand(String command){
