@@ -319,3 +319,6 @@ UnitTestSessionAction 1477054578012 TestPlanetExplorer.java FAIL
 EditAction 1477054603359 PlanetExplorer.java 3500 12 19 0
 EditAction 1477054610876 PlanetExplorer.java 3500 12 19 0
 EditAction 1477054619816 PlanetExplorer.java 3534 12 19 0
+CompilationAction 1477054619903 PlanetExplorer.java
+RefactoringAction 1477054631014 PlanetExplorer.java RENAME moveBackWard()=>void moveBackward() METHOD
+EditAction 1477054631122 PlanetExplorer.java 3534 12 19 0

@@ -73,7 +73,7 @@ public class PlanetExplorer {
 				break;
 		}
 	}
-	public void moveBackWard(){
+	public void moveBackward(){
 		switch(rover.getDirection()){
 			case 'N':
 				rover.setY(rover.getY() - 1);
