@@ -6,7 +6,8 @@
 public class PlanetExplorer {
 	
 	private final char FORWARD = 'f', BACKWARD = 'b', LEFT = 'l', RIGHT = 'r';
-	private int[][] planetGrid;
+	private 
+	private int planetX, planetY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -16,7 +17,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		planetGrid = new int[x][y];
+		planetX = x;
+		planetY = y;
 		
 	}
 	

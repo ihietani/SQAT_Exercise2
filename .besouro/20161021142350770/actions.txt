@@ -142,3 +142,7 @@ CompilationAction 1477052186671 TestPlanetExplorer.java
 CompilationAction 1477052186852 TestPlanetExplorer.java
 RefactoringAction 1477052192960 PlanetExplorer.java RENAME getPosition()=>String get() METHOD
 EditAction 1477052194383 PlanetExplorer.java 1571 4 5 0
+RefactoringAction 1477052267540 PlanetExplorer.java RENAME planetGrid=>int planet FIELD
+RefactoringAction 1477052268551 PlanetExplorer.java RENAME planet=>int planetX FIELD
+RefactoringAction 1477052278075 PlanetExplorer.java ADD int planetY FIELD
+EditAction 1477052299984 PlanetExplorer.java 1583 4 6 0
