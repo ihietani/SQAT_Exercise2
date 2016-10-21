@@ -63,9 +63,15 @@ public class PlanetExplorer {
 			}
 			else if (command.charAt(i) == 'f'){
 				moveForward();
+				if(isObstacle()){
+					moveBackward();
+				}
 			}
 			else{
 				moveBackward();
+				if(isObstacle(){
+					moveForward();
+				})
 			}
 		}
 		return getLocation();
