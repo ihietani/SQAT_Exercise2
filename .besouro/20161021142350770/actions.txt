@@ -428,3 +428,4 @@ RefactoringAction 1477056043886 PlanetExplorer.java RENAME checkObstacle=>boolea
 EditAction 1477056078839 PlanetExplorer.java 3767 13 21 0
 CompilationAction 1477056079111 PlanetExplorer.java
 EditAction 1477056265917 PlanetExplorer.java 3891 13 23 0
+EditAction 1477056271339 PlanetExplorer.java 3888 13 23 0

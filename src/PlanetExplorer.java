@@ -73,7 +73,7 @@ public class PlanetExplorer {
 	public String getLocation(){
 		return "("+rover.getX()+","+rover.getY()+","+this.getDirection()+")";
 	}
-	public boolean checkObstacle(){
+	public boolean isObstacle(){
 		for(Location l: obs){
 			if(rover.getX() == l.getX() && rover.getY() == l.getY()){
 				return true;
