@@ -36,6 +36,7 @@ public class PlanetExplorer {
 			l.setY(sc.nextInt());
 			obs.add(l);
 		}
+		sc.close();
 		
 		
 	}
