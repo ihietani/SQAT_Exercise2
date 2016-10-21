@@ -46,7 +46,7 @@ public class PlanetExplorer {
 	public char getDirection(){
 		return direction;
 	}
-	public int getObstacle(int n){
+	public int getObstacle(){
 		return obs.size();
 	}
 	
