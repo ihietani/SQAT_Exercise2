@@ -42,5 +42,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		assertEquals("The position is incorrect", "(1,2,E)", pe.executeCommand("fflllf"));
 	}
+	@Test
+	public void test_moveBackward(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
+		assertEquals("The position is incorrect", "(1,2,E)", pe.executeCommand("fflllf"));
+	}
 	
 }
