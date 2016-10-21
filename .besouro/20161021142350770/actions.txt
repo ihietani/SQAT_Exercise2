@@ -299,3 +299,6 @@ RefactoringAction 1477054381432 TestPlanetExplorer.java RENAME test_moveWest()/2
 EditAction 1477054388734 TestPlanetExplorer.java 1441 7 14 7
 EditAction 1477054393701 TestPlanetExplorer.java 1441 7 14 7
 EditAction 1477054402078 TestPlanetExplorer.java 1440 7 14 7
+UnitTestCaseAction 1477054404350 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477054404351 TestPlanetExplorer.java FAIL
+EditAction 1477054478610 PlanetExplorer.java 3170 11 18 0

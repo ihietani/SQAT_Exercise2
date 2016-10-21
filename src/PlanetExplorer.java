@@ -87,6 +87,22 @@ public class PlanetExplorer {
 					break;
 			}
 		}
+		else if(nd == 'l'){
+			switch(rover.getDirection()){
+			case 'N':
+				rover.setDirection('W');
+				break;
+			case 'E':
+				rover.setDirection('N');
+				break;
+			case 'S':
+				rover.setDirection('E');
+				break;
+			case 'W':
+				rover.setDirection('S');
+				break;
+		}
+		}
 	}
 
 	
