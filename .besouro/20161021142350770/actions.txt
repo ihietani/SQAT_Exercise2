@@ -419,3 +419,6 @@ RefactoringAction 1477055813315 PlanetExplorer.java RENAME obstacles=>ArrayList<
 CompilationAction 1477055817197 PlanetExplorer.java
 EditAction 1477055867064 PlanetExplorer.java 3713 12 21 0
 EditAction 1477055883177 PlanetExplorer.java 3728 12 21 0
+UnitTestCaseAction 1477055887179 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477055887179 TestPlanetExplorer.java FAIL
+EditAction 1477055934764 PlanetExplorer.java 3728 12 21 0
