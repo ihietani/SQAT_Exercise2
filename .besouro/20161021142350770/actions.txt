@@ -124,3 +124,7 @@ EditAction 1477052033413 PlanetExplorer.java 1573 4 5 0
 UnitTestCaseAction 1477052035706 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477052035706 TestPlanetExplorer.java FAIL
 EditAction 1477052083041 PlanetExplorer.java 1571 4 5 0
+UnitTestCaseAction 1477052085729 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052085729 TestPlanetExplorer.java OK
+RefactoringAction 1477052107170 TestPlanetExplorer.java ADD void test_executeCommandEast()/2 METHOD
+EditAction 1477052134033 TestPlanetExplorer.java 691 3 6 3
