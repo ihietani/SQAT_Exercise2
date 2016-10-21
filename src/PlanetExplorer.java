@@ -40,7 +40,7 @@ public class PlanetExplorer {
 	public int[][] getGrid(){
 		return planetGrid;
 	}
-	public String getPosition(){
+	public String getLocation(){
 		return null;
 	}
 }

@@ -17,9 +17,9 @@ public class TestPlanetExplorer {
 		assertEquals("Explorer is not facing east", "(0,0,E)", pe.executeCommand("r"));
 	}
 	@Test
-	public void test_executeCommandEast() {
+	public void test_Location() {
 		//
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
-		assertEquals("The position is incorrect", "(0,0,E)", pe.getPosition());
+		assertEquals("The position is incorrect", "(0,0,E)", pe.getLocation());
 	}
 }

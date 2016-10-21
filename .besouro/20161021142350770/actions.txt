@@ -134,3 +134,11 @@ CompilationAction 1477052142927 TestPlanetExplorer.java
 EditAction 1477052153995 TestPlanetExplorer.java 665 3 6 3
 CompilationAction 1477052154107 TestPlanetExplorer.java
 EditAction 1477052166430 TestPlanetExplorer.java 689 3 6 3
+CompilationAction 1477052166664 TestPlanetExplorer.java
+RefactoringAction 1477052171770 TestPlanetExplorer.java RENAME test_executeCommandEast()/2=>void test_execute() METHOD
+RefactoringAction 1477052177783 TestPlanetExplorer.java RENAME test_execute()=>void test_() METHOD
+RefactoringAction 1477052179293 TestPlanetExplorer.java RENAME test_()=>void test_Location() METHOD
+CompilationAction 1477052186671 TestPlanetExplorer.java
+CompilationAction 1477052186852 TestPlanetExplorer.java
+RefactoringAction 1477052192960 PlanetExplorer.java RENAME getPosition()=>String get() METHOD
+EditAction 1477052194383 PlanetExplorer.java 1571 4 5 0
