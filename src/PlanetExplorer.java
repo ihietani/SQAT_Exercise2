@@ -32,12 +32,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		StringBuilder sb = new StringBuilder();
-		
 		for(int i = 0; i < command.length(); i++){
-			char c = command.charAt(i);
-			switch(c){
-				case 
-			}
+			
+			
 		}
 		
 		return "(0,1,N)";

@@ -110,3 +110,7 @@ RefactoringAction 1477051678418 PlanetExplorer.java ADD char BACKWARD FIELD
 RefactoringAction 1477051688476 PlanetExplorer.java ADD char LEFT FIELD
 RefactoringAction 1477051697030 PlanetExplorer.java ADD char RIGHT FIELD
 EditAction 1477051701546 PlanetExplorer.java 1625 3 2 0
+CompilationAction 1477051701821 PlanetExplorer.java
+CompilationAction 1477051749245 PlanetExplorer.java
+CompilationAction 1477051749424 PlanetExplorer.java
+EditAction 1477051764437 PlanetExplorer.java 1570 3 5 0
