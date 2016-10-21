@@ -42,3 +42,8 @@ EditAction 1477050597773 TestPlanetExplorer.java 267 1 2 1
 UnitTestCaseAction 1477050609948 SpreadsheetTest.java OK
 UnitTestSessionAction 1477050609949 SpreadsheetTest.java OK
 EditAction 1477050639709 TestPlanetExplorer.java 268 1 0 0
+CompilationAction 1477050639985 TestPlanetExplorer.java
+CompilationAction 1477050641664 TestPlanetExplorer.java
+UnitTestCaseAction 1477050656190 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050656190 TestPlanetExplorer.java FAIL
+EditAction 1477050705677 TestPlanetExplorer.java 285 1 2 1
