@@ -43,7 +43,7 @@ public class PlanetExplorer {
 		if(command.equals("r")){
 			return "(0,0,E)";
 		}
-		return "(0,1,N)";
+		return getLocation();
 	}
 	public String getLocation(){
 		return "("+rover.getX()+","+rover.getY()+","+rover.getDirection()+")";
