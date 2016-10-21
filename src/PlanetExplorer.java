@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	private int planetY;
 	private Location rover;
 	private char direction;
-	ArrayList<Location> obs;
+	private ArrayList<Location> obs;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
