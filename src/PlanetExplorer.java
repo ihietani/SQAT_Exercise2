@@ -73,6 +73,9 @@ public class PlanetExplorer {
 	public String getLocation(){
 		return "("+rover.getX()+","+rover.getY()+","+this.getDirection()+")";
 	}
+	public boolean checkObstacle(){
+		
+	}
 	public void moveForward(){
 		switch(getDirection()){
 			case 'N':

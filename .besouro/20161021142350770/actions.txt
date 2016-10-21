@@ -423,3 +423,6 @@ UnitTestCaseAction 1477055887179 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477055887179 TestPlanetExplorer.java FAIL
 EditAction 1477055934764 PlanetExplorer.java 3728 12 21 0
 EditAction 1477055943935 PlanetExplorer.java 3728 12 21 0
+RefactoringAction 1477056042369 PlanetExplorer.java ADD boolean checkObstacle FIELD
+RefactoringAction 1477056043886 PlanetExplorer.java RENAME checkObstacle=>boolean checkObstacle() METHOD
+EditAction 1477056078839 PlanetExplorer.java 3767 13 21 0
