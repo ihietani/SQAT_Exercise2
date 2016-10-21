@@ -71,5 +71,8 @@ public class PlanetExplorer {
 		public int getX(){
 			return x;
 		}
+		public char getDirection(){
+			return direction;
+		}
 	}
 }

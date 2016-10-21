@@ -185,3 +185,7 @@ RefactoringAction 1477052861377 PlanetExplorer.java ADD void setDi FIELD
 RefactoringAction 1477052863885 PlanetExplorer.java RENAME setDi=>void setDirection() METHOD
 RefactoringAction 1477052872397 PlanetExplorer.java RENAME setDirection()=>void setDirection(char) METHOD
 EditAction 1477052889397 PlanetExplorer.java 2018 8 13 0
+CompilationAction 1477052889846 PlanetExplorer.java
+RefactoringAction 1477052894475 PlanetExplorer.java ADD int getX()/2 METHOD
+RefactoringAction 1477052904500 PlanetExplorer.java RENAME getX()/2=>char getDirection() METHOD
+EditAction 1477052907942 PlanetExplorer.java 2073 9 14 0
