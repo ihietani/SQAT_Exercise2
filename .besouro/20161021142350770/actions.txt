@@ -23,3 +23,8 @@ CompilationAction 1477050415941 PlanetExplorer.java
 CompilationAction 1477050416142 PlanetExplorer.java
 CompilationAction 1477050416142 TestPlanetExplorer.java
 EditAction 1477050422955 PlanetExplorer.java 1339 2 2 0
+RefactoringAction 1477050440251 PlanetExplorer.java ADD int getGrid FIELD
+RefactoringAction 1477050441766 PlanetExplorer.java RENAME getGrid=>int getGrid() METHOD
+RefactoringAction 1477050456822 PlanetExplorer.java RENAME getGrid()=>int getGridSize() METHOD
+RefactoringAction 1477050466836 PlanetExplorer.java RENAME getGridSize()=>int getGrid() METHOD
+EditAction 1477050480745 PlanetExplorer.java 1390 3 3 0

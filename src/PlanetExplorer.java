@@ -33,4 +33,7 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	public int[][] getGrid(){
+		return planetGrid;
+	}
 }
