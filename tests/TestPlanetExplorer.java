@@ -22,5 +22,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		assertEquals("The position is incorrect", "(0,2,N)", pe.executeCommand("ff"));
 	}
+	@Test
+	public void test_moveEast(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"(5,5)(7,8)");
+		assertEquals("The position is incorrect", "(0,2,N)", pe.executeCommand("ffe"));
+	}
 	
 }
