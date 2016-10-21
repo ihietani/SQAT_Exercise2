@@ -8,6 +8,7 @@ public class PlanetExplorer {
 	private final char FORWARD = 'f', BACKWARD = 'b', LEFT = 'l', RIGHT = 'r';
 	private int planetX;
 	private int planetY;
+	private Location rover;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -17,6 +18,10 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		rover = new Location();
+		rover.setX(0);
+		rover.setY(0);
+		rover.setDirection('N');
 		planetX = x;
 		planetY = y;
 		
@@ -33,9 +38,7 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		Location s = new Location();
-		s.setX(0);
-		s.setY(0);
+		
 		char direction = 'N';
 		if(command.equals("r")){
 			return "(0,0,E)";
@@ -46,7 +49,10 @@ public class PlanetExplorer {
 		return null;
 	}
 	public void moveForward(){
-		if()
+		switch(rover.getDirection()){
+			case 'N':
+				rover.y++;
+		}
 	}
 	
 	

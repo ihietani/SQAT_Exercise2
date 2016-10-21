@@ -203,3 +203,15 @@ RefactoringAction 1477053041934 TestPlanetExplorer.java REMOVE test_() METHOD
 EditAction 1477053042153 TestPlanetExplorer.java 681 3 6 3
 EditAction 1477053073020 TestPlanetExplorer.java 668 3 6 3
 EditAction 1477053085089 TestPlanetExplorer.java 669 3 6 3
+RefactoringAction 1477053146417 PlanetExplorer.java MOVE Location=>void moveForward() null
+RefactoringAction 1477053148932 PlanetExplorer.java RENAME moveForward()=>void moveForward(char) METHOD
+RefactoringAction 1477053171000 PlanetExplorer.java RENAME moveForward(char)=>void moveForward() METHOD
+RefactoringAction 1477053204115 PlanetExplorer.java ADD Location l FIELD
+RefactoringAction 1477053205632 PlanetExplorer.java REMOVE l FIELD
+RefactoringAction 1477053212147 PlanetExplorer.java ADD Location rover FIELD
+CompilationAction 1477053212356 PlanetExplorer.java
+CompilationAction 1477053229343 PlanetExplorer.java
+CompilationAction 1477053246400 PlanetExplorer.java
+CompilationAction 1477053246564 PlanetExplorer.java
+CompilationAction 1477053249582 PlanetExplorer.java
+EditAction 1477053334037 PlanetExplorer.java 2161 10 17 0
