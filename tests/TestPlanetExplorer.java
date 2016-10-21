@@ -48,6 +48,11 @@ public class TestPlanetExplorer {
 		assertEquals("The position is incorrect", "(0,-2,N)", pe.executeCommand("bb"));
 	}
 	@Test
+	public void check_Obstacle(){
+		PlanetExplorer pe = new PlanetExplorer(100,100,"(0,2)(7,8)");
+		assertEquals("The position is incorrect", "(2,1,E)", pe.obs);
+	}
+	@Test
 	public void test_Obstacle(){
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(0,2)(7,8)");
 		assertEquals("The position is incorrect", "(2,1,E)", pe.executeCommand("ffrff"));

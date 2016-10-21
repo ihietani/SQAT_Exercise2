@@ -447,3 +447,4 @@ RefactoringAction 1477056475605 PlanetExplorer.java ADD String getObstacle FIELD
 RefactoringAction 1477056476624 PlanetExplorer.java RENAME getObstacle=>String getObstacle() METHOD
 RefactoringAction 1477056487675 PlanetExplorer.java RENAME getObstacle()=>String getObstacle(int) METHOD
 EditAction 1477056526534 PlanetExplorer.java 4063 14 25 0
+EditAction 1477056530899 TestPlanetExplorer.java 1987 10 20 10
