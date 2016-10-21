@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		planetX = x;
 		planetY = y;
 		
-		Scanner sc = new Scanner(obstacles).useDelimiter(^0-9);
+		Scanner sc = new Scanner(obstacles).useDelimiter(^0-9*);
 		while(sc.hasNextInt()){
 			Location l = new Location();
 			l.setX(sc.nextInt());
