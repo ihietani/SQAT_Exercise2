@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	
-	private int[][] planetGrid;
+	public int[][] planetGrid;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
