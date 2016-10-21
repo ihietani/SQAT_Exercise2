@@ -48,6 +48,9 @@ public class PlanetExplorer {
 	public String getLocation(){
 		return null;
 	}
+	public void moveForward(){
+		if()
+	}
 	
 	
 	class Location{

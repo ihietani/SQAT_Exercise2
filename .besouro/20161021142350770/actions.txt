@@ -189,3 +189,7 @@ CompilationAction 1477052889846 PlanetExplorer.java
 RefactoringAction 1477052894475 PlanetExplorer.java ADD int getX()/2 METHOD
 RefactoringAction 1477052904500 PlanetExplorer.java RENAME getX()/2=>char getDirection() METHOD
 EditAction 1477052907942 PlanetExplorer.java 2073 9 14 0
+CompilationAction 1477052908190 PlanetExplorer.java
+RefactoringAction 1477052923546 PlanetExplorer.java ADD void moveForward FIELD
+RefactoringAction 1477052927562 PlanetExplorer.java RENAME moveForward=>void moveForward() METHOD
+EditAction 1477052931695 PlanetExplorer.java 2111 10 14 0
