@@ -70,6 +70,22 @@ public class PlanetExplorer {
 				break;
 		}
 	}
+	public void moveBackWard(){
+		switch(rover.getDirection()){
+			case 'N':
+				rover.setY(rover.getY() - 1);
+				break;
+			case 'S':
+				rover.setY(rover.getY() + 1);
+				break;
+			case 'E':
+				rover.setX(rover.getX() - 1);
+				break;
+			case 'W':
+				rover.setX(rover.getX() + 1);
+				break;
+		}
+	}
 	public void turn(char nd){
 		if(nd == 'r'){
 			switch(rover.getDirection()){

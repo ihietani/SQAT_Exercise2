@@ -308,3 +308,9 @@ RefactoringAction 1477054491992 TestPlanetExplorer.java ADD void test_turnLeft()
 RefactoringAction 1477054504003 TestPlanetExplorer.java RENAME test_turnLeft()/2=>void test_moveBackward() METHOD
 EditAction 1477054508736 TestPlanetExplorer.java 1633 8 16 8
 EditAction 1477054515164 TestPlanetExplorer.java 1629 8 16 8
+UnitTestCaseAction 1477054532548 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477054532548 TestPlanetExplorer.java FAIL
+RefactoringAction 1477054552728 PlanetExplorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1477054555743 PlanetExplorer.java RENAME moveForward()/2=>void move() METHOD
+RefactoringAction 1477054558758 PlanetExplorer.java RENAME move()=>void moveBackWard() METHOD
+EditAction 1477054572855 PlanetExplorer.java 3470 12 19 0
