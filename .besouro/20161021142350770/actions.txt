@@ -245,3 +245,4 @@ RefactoringAction 1477053885155 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1477053889668 TestPlanetExplorer.java RENAME test_moveE=>void test_moveEast FIELD
 RefactoringAction 1477053890680 TestPlanetExplorer.java RENAME test_moveEast=>void test_moveEast() METHOD
 EditAction 1477053928582 TestPlanetExplorer.java 874 4 8 4
+EditAction 1477053932376 TestPlanetExplorer.java 874 4 8 4
