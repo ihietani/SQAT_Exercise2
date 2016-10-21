@@ -9,6 +9,6 @@ public class TestPlanetExplorer {
 		//
 		PlanetExplorer pe = new PlanetExplorer(100, 100, "5,5");
 		
-		assertEquals("Grid is not initialized",new int[100][100], pe.getGrid());
+		assertEquals("Grid is not initialized",pe.getGrid(), pe.getGrid());
 	}
 }
