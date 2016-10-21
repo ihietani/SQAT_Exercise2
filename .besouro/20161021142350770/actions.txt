@@ -74,3 +74,17 @@ CompilationAction 1477051002454 TestPlanetExplorer.java
 CompilationAction 1477051002633 TestPlanetExplorer.java
 RefactoringAction 1477051084556 TestPlanetExplorer.java RENAME test_obstacle()=>void test_executeCommand() METHOD
 EditAction 1477051146449 TestPlanetExplorer.java 213 1 0 0
+CompilationAction 1477051146552 TestPlanetExplorer.java
+CompilationAction 1477051146553 TestPlanetExplorer.java
+CompilationAction 1477051146553 TestPlanetExplorer.java
+CompilationAction 1477051146553 TestPlanetExplorer.java
+CompilationAction 1477051146553 TestPlanetExplorer.java
+CompilationAction 1477051152806 TestPlanetExplorer.java
+CompilationAction 1477051152807 TestPlanetExplorer.java
+CompilationAction 1477051152808 TestPlanetExplorer.java
+CompilationAction 1477051152808 TestPlanetExplorer.java
+CompilationAction 1477051152809 TestPlanetExplorer.java
+RefactoringAction 1477051170740 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_executeCommandNorth() METHOD
+UnitTestCaseAction 1477051226355 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051226356 TestPlanetExplorer.java FAIL
+EditAction 1477051242812 PlanetExplorer.java 1392 3 3 0
