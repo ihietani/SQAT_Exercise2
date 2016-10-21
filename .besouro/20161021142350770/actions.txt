@@ -146,3 +146,23 @@ RefactoringAction 1477052267540 PlanetExplorer.java RENAME planetGrid=>int plane
 RefactoringAction 1477052268551 PlanetExplorer.java RENAME planet=>int planetX FIELD
 RefactoringAction 1477052278075 PlanetExplorer.java ADD int planetY FIELD
 EditAction 1477052299984 PlanetExplorer.java 1583 4 6 0
+CompilationAction 1477052300087 PlanetExplorer.java
+CompilationAction 1477052300087 PlanetExplorer.java
+CompilationAction 1477052300087 PlanetExplorer.java
+CompilationAction 1477052321415 PlanetExplorer.java
+CompilationAction 1477052321415 PlanetExplorer.java
+RefactoringAction 1477052349713 PlanetExplorer.java ADD int planetX/2 FIELD
+RefactoringAction 1477052351724 PlanetExplorer.java RENAME planetX/2=>int planetY/2 FIELD
+RefactoringAction 1477052354737 PlanetExplorer.java REMOVE planetY/2 FIELD
+CompilationAction 1477052355387 PlanetExplorer.java
+CompilationAction 1477052355556 PlanetExplorer.java
+CompilationAction 1477052358118 PlanetExplorer.java
+RefactoringAction 1477052400815 PlanetExplorer.java RENAME Pair=>class Location null
+RefactoringAction 1477052420869 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1477052429901 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1477052456977 PlanetExplorer.java ADD int get FIELD
+RefactoringAction 1477052459490 PlanetExplorer.java RENAME get=>int getY FIELD
+RefactoringAction 1477052477049 PlanetExplorer.java ADD int get FIELD
+RefactoringAction 1477052478062 PlanetExplorer.java RENAME get=>int getX FIELD
+RefactoringAction 1477052479078 PlanetExplorer.java RENAME getX=>int getX() METHOD
+EditAction 1477052483221 PlanetExplorer.java 1668 5 7 0

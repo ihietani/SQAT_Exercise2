@@ -6,8 +6,8 @@
 public class PlanetExplorer {
 	
 	private final char FORWARD = 'f', BACKWARD = 'b', LEFT = 'l', RIGHT = 'r';
-	private 
-	private int planetX, planetY;
+	private int planetX;
+	private int planetY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -39,10 +39,18 @@ public class PlanetExplorer {
 		
 		return "(0,1,N)";
 	}
-	public int[][] getGrid(){
-		return planetGrid;
-	}
 	public String getLocation(){
 		return null;
+	}
+	class Location{
+		private int x;
+		private int y;
+		
+		public int getY(){
+			return y;
+		}
+		public int getX(){
+			return x;
+		}
 	}
 }
