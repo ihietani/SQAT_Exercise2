@@ -49,7 +49,7 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void test_Obstacle(){
-		PlanetExplorer pe = new PlanetExplorer(100,100,"(2,0)(7,8)");
+		PlanetExplorer pe = new PlanetExplorer(100,100,"(0,2)(7,8)");
 		assertEquals("The position is incorrect", "(2,1,E)", pe.executeCommand("ffrff"));
 	}
 	
