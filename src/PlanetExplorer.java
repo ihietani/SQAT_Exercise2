@@ -48,6 +48,9 @@ public class PlanetExplorer {
 			else if (command.charAt(i) == 'f'){
 				moveForward();
 			}
+			else{
+				moveBackward();
+			}
 		}
 		return getLocation();
 	}
