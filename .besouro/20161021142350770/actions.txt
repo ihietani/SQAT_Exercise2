@@ -118,3 +118,6 @@ RefactoringAction 1477051859897 PlanetExplorer.java ADD String getPosition() MET
 EditAction 1477051947286 PlanetExplorer.java 1646 4 5 0
 EditAction 1477051973433 PlanetExplorer.java 1522 4 4 0
 EditAction 1477052017689 PlanetExplorer.java 1569 4 5 0
+CompilationAction 1477052017758 PlanetExplorer.java
+CompilationAction 1477052023125 PlanetExplorer.java
+EditAction 1477052033413 PlanetExplorer.java 1573 4 5 0
